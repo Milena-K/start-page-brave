@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+html {
+  background-color: #bd9e89;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.the-big-question {
+  display: flex;
+}
+.question {
+  color: #193A32;
+  background-color: white;
+  border: #193A32 solid 0.3vw;
+  border-left: none;
+  font-size: 4vw;
+  padding: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.bottom-img {
+  width: 100%;
+  min-width: 280px;
+  background-repeat: no-repeat, no-repeat;
+  position: absolute;
+  bottom: 0px;
+  flex: 1;
+}
+
+.board {
+  padding-top: 10%;
+  background-color: green;
+}
+
+.bars {
+  width: 50%;
+  border: none;
+  height: 5px;
+  color: white;
+  background-color: white;
+}
+
+.title {
+  letter-spacing: 10px;
+  font-size: 3vw;
+  font-weight: bold;
+  color: #193A32;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+}
+
+.category {
+  flex-grow: 1;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}

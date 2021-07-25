@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 html {
-  background-color: #bd9e89;
+  background-color: white;
 }
 
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   font-family: 'Dancing Script', cursive;
 }
@@ -13,14 +15,29 @@ html {
   display: flex;
 }
 .question {
-  color: #193A32;
-  background-color: white;
-  border: #193A32 solid 0.3vw;
+  color: #F4EBD3;
+  background-color: #66777F;
+  border: #F4EBD3 solid 0.3vw;
   border-left: none;
   font-size: 4vw;
   padding: 1vw;
   padding-left: 2vw;
   padding-right: 2vw;
+}
+
+.clock {
+  position: absolute;
+  padding: 2% 0 2% 5%;
+  width: 15%;
+  text-align: left;
+  color: white;
+  font-size: 3vw;
+  font-weight: bold;
+  background-color: #db687c;
+}
+
+.weather {
+  font-size: 2vw;
 }
 
 .footer {
@@ -31,32 +48,35 @@ html {
 }
 
 .bottom-img {
-  width: 100%;
-  min-width: 280px;
-  background-repeat: no-repeat, no-repeat;
+  height: 40%;
+  width: auto;
   position: absolute;
   bottom: 0px;
-  flex: 1;
+}
+
+.bottom-img > img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
 
 .board {
   padding-top: 10%;
-  background-color: green;
 }
 
 .bars {
   width: 50%;
   border: none;
   height: 5px;
-  color: white;
-  background-color: white;
+  color: #2D2D2D;
+  background-color: #2D2D2D;
 }
 
 .title {
   letter-spacing: 10px;
   font-size: 3vw;
   font-weight: bold;
-  color: #193A32;
+  color: #db687c;
 }
 
 .content {

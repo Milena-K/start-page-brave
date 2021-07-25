@@ -1,14 +1,18 @@
 import './App.css';
-import flowers from './images/flowers2.png';
+import monkey from './images/pretty.svg';
 import Board from './Board.js';
+import Clock from './Clock.js';
+import Weather from './Weather.js';
 
 function App() {
   return (
     <div className="App">
+      <Clock/>
+      <Weather/>
       <Board/>
       <div className="footer">
         <div className="bottom-img">
-          <img src={flowers} alt="flowers"/>
+          <img src={monkey} alt="monkey"/>
         </div>
       </div>
     </div>
